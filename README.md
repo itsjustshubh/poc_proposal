@@ -1,30 +1,82 @@
-# React + TypeScript + Vite
+# Proposal Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proposal Analyzer is a web application that allows users to upload RFP (Request for Proposal) and Proposal documents for analysis. The app provides insights and eligibility criteria based on the uploaded documents.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Upload and analyze RFP and Proposal documents
+- Display detailed analysis results
+- Animated loading screen with interesting facts
+- Responsive and user-friendly interface
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Frontend: React, TypeScript, Tailwind CSS, Framer Motion
+- Backend: FastAPI, Python
+- Deployment: Vercel (Frontend), Heroku (Backend)
 
-- Configure the top-level `parserOptions` property like this:
+## Installation
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Prerequisites
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Node.js and npm
+- Python and pip
+
+### Frontend
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/proposal-analyzer.git
+   cd proposal-analyzer/frontend
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+### Backend
+
+1. Navigate to the backend directory:
+
+   ```bash
+   cd ../backend
+   ```
+
+2. Create a virtual environment and activate it:
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\\Scripts\\activate`
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Start the backend server:
+
+   ```bash
+   uvicorn main:app --reload
+   ```
+
+## Usage
+
+1. Open your browser and navigate to `http://localhost:5173`.
+2. Upload your RFP and Proposal documents.
+3. Wait for the analysis to complete.
+4. View the analysis results.
+
+## License
+
+This project is licensed under the MIT License.
