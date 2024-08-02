@@ -1,0 +1,29 @@
+{
+  "eligibility_criteria": [
+    {
+      "criterion": "A minimum of 5 years of existence",
+      "eligibility_met": "Yes",
+      "reason": "The proposal states that Quantum Analytics Consulting has over 15 years of global experience. Additionally, Annexure 1 includes the Certificate of Incorporation, which serves as proof of existence."
+    },
+    {
+      "criterion": "The Agency should have a minimum Annual Turnover of Rs. 50 Cr. during each of the 3 financial years i.e., FY 2020-21, FY 2021-22, and FY 2022-23",
+      "eligibility_met": "No",
+      "reason": "The proposal only includes the financial statement for FY 2022-23 (Annexure 2). There is no mention of financial statements or certificates for FY 2020-21 and FY 2021-22."
+    },
+    {
+      "criterion": "The Agency should have completed a minimum of 5 studies/projects (AI related/tech-policy related/competition related/sectoral studies for policy purposes)",
+      "eligibility_met": "Yes",
+      "reason": "The proposal mentions that Quantum Analytics Consulting has conducted over 50 studies globally on technology's impact on market structures, including ten in AI and competition. Annexure 3 includes copies of completion certificates for relevant past projects."
+    },
+    {
+      "criterion": "The Agency should not have been blacklisted by Central/State Government Departments/Undertakings/Court of Law",
+      "eligibility_met": "No",
+      "reason": "The proposal does not include a No Conviction/Debarment Certificate as per Annexure-3, which is required to prove that the agency has not been blacklisted."
+    },
+    {
+      "criterion": "The agency should have a valid PAN and Service Tax/GST Registration in India (if applicable)",
+      "eligibility_met": "No",
+      "reason": "The proposal does not include a self-attested copy of the PAN card or the Service Tax/GST Registration certificate."
+    }
+  ]
+}
